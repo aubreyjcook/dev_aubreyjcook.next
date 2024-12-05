@@ -11,20 +11,11 @@ export default function TutorialLayout({
 }) {
   return (
     <html lang="en">
-      <body className="relative flex flex-col min-h-screen bg-gray-800">
-
-        {/* Overlay for Readability */}
-        <div className="absolute top-0 left-0 w-full h-full bg-gray-800 bg-opacity-50 -z-5"></div>
-
-        {/* Navigation Bar */}
+      <body>
         <Nav />
-
-        {/* Main Content */}
-        <main className="flex-grow container mx-auto p-8 pb-20 gap-16 sm:p-20 z-10">
+        <main>
           {children}
         </main>
-
-        {/* Footer */}
         <Footer />
       </body>
     </html>
