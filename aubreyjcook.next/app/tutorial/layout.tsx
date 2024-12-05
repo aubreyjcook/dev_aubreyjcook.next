@@ -1,5 +1,4 @@
-// app/tutorial/layout.tsx
-'use client'; // Enables client-side interactivity if needed
+'use client';
 
 import Nav from '../../components/Nav';
 import Footer from '../../components/Footer';
