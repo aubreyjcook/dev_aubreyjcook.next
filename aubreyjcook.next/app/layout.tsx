@@ -31,10 +31,12 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Nav />
-        <main>
-          {children}
-        </main>
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 p-4">
+          <main className="lg:col-span-2 bg-gray-800 text-white">
+            {children}
+          </main>
         <Footer />
+        </div>
       </body>
     </html>
   );
