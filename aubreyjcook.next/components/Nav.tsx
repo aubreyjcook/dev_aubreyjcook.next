@@ -4,7 +4,7 @@ const Nav = () => {
     return(
         <nav className="bg-gray-900 text-white p-4">
             <div className="flex justify-between items-center">
-                <h1 className="text-xl">Nav</h1>
+                <h1 className="text-xl"><a href="">Aubrey J Cook</a></h1>
                 <ul className="flex space-x-6">
                     <li>
                         <a href="#">Home</a>

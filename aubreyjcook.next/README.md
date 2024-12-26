@@ -1,3 +1,15 @@
+# aubreyjcook.next
+
+## Purpose
+
+Personal website for Aubrey J. Cook, built with Next.js.
+
+## TODOs
+
+- [ ] Fill out TODOs
+
+## Next App Generated README
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
