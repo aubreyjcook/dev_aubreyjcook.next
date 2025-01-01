@@ -2,7 +2,7 @@ import React from 'react';
 
 const Nav = () => {
     return(
-        <nav className="bg-gray-900 text-white p-4">
+        <nav className="bg-background text-foreground p-4">
             <div className="flex justify-between items-center">
                 <h1 className="text-xl"><a href="">Aubrey J Cook</a></h1>
                 <ul className="flex space-x-6">

@@ -2,8 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-    --background: black;
-    --foreground: lightgray; 
+/* Globals */
+@layer base {
+  body {
+    @apply bg-background text-foreground;
   }
-  
+}

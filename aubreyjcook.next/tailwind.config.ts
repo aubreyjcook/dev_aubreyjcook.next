@@ -9,8 +9,15 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: "#000000", // black
+        foreground: "#D3D3D3", // lightgray
+      },
+      fontFamily: {
+        sans: ['"Geist Sans"', 'sans-serif'],
+        mono: ['"Geist Mono"', 'monospace'],
+      },
+      spacing: {
+        72: '18rem', // Custom spacing value
       },
     },
   },
