@@ -9,8 +9,19 @@ export default function Home() {
             <title>Home</title>
             <meta name="description" content="Home" />
         </Head>
-        <h1>Content</h1>
-        <p>Content</p>
+
+        <section className="relative w-full h-screen bg-cover bg-center" style={{ backgroundImage: "url('/images/your-background-image.jpg')" }}>
+        {/* Content for the first fold */}
+          <div className="absolute inset-0 bg-black opacity-50"></div> {/* Optional overlay */}
+          <div className="relative z-10 text-white flex justify-center items-center h-full">
+            <h1 className="text-4xl md:text-6xl font-bold">Welcome to My Website</h1>
+          </div>
+        </section>
+
+      <section className="p-8">
+        <h2>Other Content</h2>
+        {/* More content here */}
+      </section>
     </div>
   );
 };
