@@ -13,8 +13,8 @@ const config: Config = {
         foreground: "#D3D3D3", // lightgray
       },
       fontFamily: {
-        sans: ['"Geist Sans"', 'sans-serif'],
-        mono: ['"Geist Mono"', 'monospace'],
+        aldrich: ["Aldrich", "serif"],
+        vt323: ["VT323", "serif"],
       },
       spacing: {
         72: '18rem', // Custom spacing value

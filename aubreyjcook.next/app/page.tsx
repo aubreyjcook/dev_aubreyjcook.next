@@ -8,6 +8,12 @@ export default function Home() {
         <Head>
             <title>Home</title>
             <meta name="description" content="Home" />
+            <link rel="preconnect" href="https://fonts.googleapis.com" />
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+            <link
+              href="https://fonts.googleapis.com/css2?family=Aldrich&family=VT323&display=swap"
+              rel="stylesheet"
+            />
         </Head>
 
         <section className="relative w-full h-screen bg-cover bg-center" style={{ backgroundImage: "url('/images/your-background-image.jpg')" }}>
