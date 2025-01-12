@@ -28,9 +28,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Aldrich&family=VT323&display=swap"
+        rel="stylesheet"
+      />
+      </head>
       <body className="font-vt323 antialiased">
         <Nav />
-        <div className="grid">
+        <div>
           <main className="lg:col-span-2 bg-gray-800 text-white">
             {children}
           </main>
