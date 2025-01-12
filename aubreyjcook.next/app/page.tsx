@@ -10,7 +10,7 @@ export default function Home() {
             <meta name="description" content="Home" />
         </Head>
 
-        <section className="relative w-full h-screen bg-cover bg-center" style={{ backgroundImage: "url('/images/your-background-image.jpg')" }}>
+        <section className="relative w-full h-screen bg-cover bg-center" style={{ backgroundImage: "url('/images/hero-background.jpg')" }}>
         {/* Content for the first fold */}
           <div className="absolute inset-0 bg-black opacity-50"></div> {/* Optional overlay */}
           <div className="relative z-10 text-white flex justify-center items-center h-full">
