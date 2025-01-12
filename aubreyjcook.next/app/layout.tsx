@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
+import ThreeBackground from '../components/ThreeBackground';
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -27,9 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className="font-vt323 antialiased"
-      >
+      <body className="font-vt323 antialiased">
         <Nav />
         <div className="grid">
           <main className="lg:col-span-2 bg-gray-800 text-white">
