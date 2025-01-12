@@ -39,7 +39,7 @@ export default function RootLayout({
       <body className="font-vt323 antialiased">
         <Nav />
         <div>
-          <main className="lg:col-span-2 bg-gray-800 text-white">
+          <main className="h-screen lg:col-span-2 bg-gray-900 text-white">
             {children}
           </main>
         </div>
