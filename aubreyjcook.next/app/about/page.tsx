@@ -1,12 +1,12 @@
 import React from 'react';
 import Head from 'next/head';
 
-export default function Photography() {
+export default function About() {
     return (
         <div>
           <Head>
-              <title>Photography</title>
-              <meta name="description" content="Photography" />
+              <title>About</title>
+              <meta name="description" content="About" />
           </Head>
     
           <section className="relative w-full h-60">
