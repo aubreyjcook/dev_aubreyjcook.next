@@ -13,7 +13,7 @@ export default function Home() {
       <section className="relative w-full h-60">
       {/* Content for the first fold */}
         <div className="absolute inset-0 bg-black opacity-50"></div> {/* Optional overlay */}
-        <div className="relative z-10 text-white flex justify-center items-center h-full">
+        <div className="relative z-10 flex justify-center items-center h-full">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold uppercase">Aubrey Cook</h1>
             <hr />
@@ -23,8 +23,14 @@ export default function Home() {
       </section>
 
       <section className="w-full h=80">
-        <div className="text-white flex justify-center items-center h-60">
-          <h1 className="text-4xl md:text-6xl font-bold uppercase">Content</h1>
+        <div className="flex flex-col justify-center items-center h-40">
+          <h2 className="text-2xl md:text-4xl font-bold uppercase">Content</h2>
+          <h1>Content</h1>
+          <p>Content</p>
+        </div>
+        <div className="flex justify-center items-center h-20">
+          <h1>Content</h1>
+          <p>Content</p>
         </div>
       </section>
     </div>
