@@ -22,13 +22,37 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="w-full h=80">
+      <section className="flex justify-center w-full h=80">
+        <div className="flex flex-col basis-1/3 justify-center items-center h-40">
+          <h1 className="text-2xl md:text-4xl font-bold uppercase">Content</h1>
+          <h2>Content</h2>
+          <p>Content</p>
+        </div>
+        <div className="flex flex-col basis-1/3 justify-center items-center h-40">
+          <h1 className="text-2xl md:text-4xl font-bold uppercase">Content</h1>
+          <h2>Content</h2>
+          <p>Content</p>
+          <Image 
+            src="/23.jpg"
+            width={500}
+            height={500}
+            alt="alt text" 
+          />
+        </div>
+        <div className="flex flex-col basis-1/3 justify-center items-center h-40">
+          <h1 className="text-2xl md:text-4xl font-bold uppercase">Content</h1>
+          <h2>Content</h2>
+          <p>Content</p>
+        </div>
+      </section>
+      <section className="flex justify-center w-full h=80">
         <div className="flex flex-col justify-center items-center h-40">
           <h2 className="text-2xl md:text-4xl font-bold uppercase">Content</h2>
           <h1>Content</h1>
           <p>Content</p>
         </div>
-        <div className="flex justify-center items-center h-20">
+        <div className="flex flex-col justify-center items-center h-40">
+          <h2 className="text-2xl md:text-4xl font-bold uppercase">Content</h2>
           <h1>Content</h1>
           <p>Content</p>
         </div>
