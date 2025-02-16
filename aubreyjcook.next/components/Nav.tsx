@@ -1,24 +1,40 @@
 import React from 'react';
 import Link from 'next/link';
+interface NavItem {
+    href: string;
+    label: string;
+  }
 
-const Nav = () => {
-    return(
-        <nav className="bg-background text-foreground p-4">
-            <div className="flex w-full justify-between items-center uppercase">
-                <h1 className="text-xl"><Link href="/">Aubrey Cook</Link></h1>
-                <div className='flex-grow flex space-x-2 justify-end text-2xl'>
-                    <div className="flex p-1 bg-gray-800 border-gray-500 border-2">
-                        <Link href="/portfolio" className="p-2">Portfolio</Link>
-                        <Link href="/about" className="p-2">About</Link>
-                        <Link href="/resume" className="p-2">Resume</Link>
-                        <Link href="/contact" className="p-2">Contact</Link>
-                        <Link href="/blog" className="p-2">Blog</Link>
-                        <Link href="/photography" className="p-2">Photography</Link>
-                    </div>
-                </div>
+  const navItems: NavItem[] = [
+    { href: '/portfolio', label: 'Portfolio' },
+    { href: '/portfolio/demos', label: 'Demos' },
+    { href: '/about', label: 'About' },
+    { href: '/resume', label: 'Resume' },
+    { href: '/contact', label: 'Contact' },
+    { href: '/blog', label: 'Blog' },
+    { href: '/photography', label: 'Photography' },
+  ];
+  
+  const Nav: FC = () => {
+    return (
+      <nav className="bg-background text-foreground p-4">
+        <div className="flex w-full justify-between items-center uppercase">
+          <h1 className="text-xl">
+            <Link href="/">Aubrey Cook</Link>
+          </h1>
+          <div className="flex-grow flex space-x-2 justify-end text-2xl">
+            <div className="flex p-1 bg-gray-800 border-gray-500 border-2">
+              {navItems.map((item) => (
+                <Link className='p-2' key={item.href} href={item.href}>
+                    {item.label}
+                  {/* <a className="p-2">{item.label}</a> */}
+                </Link>
+              ))}
             </div>
-        </nav>
+          </div>
+        </div>
+      </nav>
     );
-};
+  };
 
 export default Nav;
