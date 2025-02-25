@@ -33,12 +33,12 @@ export default function Home() {
           <h1 className="text-2xl md:text-4xl font-bold uppercase">Content</h1>
           <h2>Content</h2>
           <p>Content</p>
-          <Image 
+          {/* <Image 
             src="/23.jpg"
             width={500}
             height={500}
             alt="alt text" 
-          />
+          /> */}
         </div>
         <div className="flex flex-col basis-1/3 justify-center items-center h-40">
           <h1 className="text-2xl md:text-4xl font-bold uppercase">Content</h1>
