@@ -40,19 +40,19 @@ export default function Home() {
           /> */}
         </div>
         <div className="flex flex-col basis-1/3 justify-center items-center h-40">
-          <h1 className="text-2xl md:text-4xl font-bold uppercase">Content</h1>
+          <h1 className="text-2xl md:text-4xl font-bold uppercase">Resume</h1>
           <h2>Content</h2>
           <p>Content</p>
         </div>
       </section>
       <section className="flex justify-center w-full h=80">
         <div className="flex flex-col justify-center items-center h-40">
-          <h2 className="text-2xl md:text-4xl font-bold uppercase">Content</h2>
+          <h2 className="text-2xl md:text-4xl font-bold uppercase">Blog</h2>
           <h1>Content</h1>
           <p>Content</p>
         </div>
         <div className="flex flex-col justify-center items-center h-40">
-          <h2 className="text-2xl md:text-4xl font-bold uppercase">Content</h2>
+          <h2 className="text-2xl md:text-4xl font-bold uppercase">Photography and Artwork</h2>
           <h1>Content</h1>
           <p>Content</p>
         </div>
