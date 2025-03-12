@@ -25,12 +25,11 @@ export default function Home() {
 
       <section className="flex justify-center w-full h=80">
         <div className="flex flex-col basis-1/3 justify-center items-center h-40">
-          <h1 className="text-2xl md:text-4xl font-bold uppercase">Content</h1>
-          <h2>Content</h2>
-          <p>Content</p>
+          <h1 className="text-2xl md:text-4xl font-bold uppercase">Background</h1>
+          <p>Aubrey Cook is a multi-disciplined programmer, maining utilizing web technologies to accomplish a variety of technical solutions tailored to specific problems.</p>          
         </div>
         <div className="flex flex-col basis-1/3 justify-center items-center h-40">
-          <h1 className="text-2xl md:text-4xl font-bold uppercase">Content</h1>
+          <h1 className="text-2xl md:text-4xl font-bold uppercase">Projects</h1>
           <h2>Content</h2>
           <p>Content</p>
           {/* <Image 
