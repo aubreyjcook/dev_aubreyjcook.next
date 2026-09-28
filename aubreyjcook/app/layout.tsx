@@ -19,12 +19,20 @@ export const metadata: Metadata = {
     "Web programmer developing web sites and web applications. Specializes in using React, Next.js, Typescript, and Tailwind. Experienced in front-end development, effective in full-stack development. Expert in JavaScript. Effective in PHP, MySQL, GraphQL, PostgreSQL, and WordPress. Familiar with Cursor, DeepSeek, and other AI tools. Available for freelance work.",
 };
 
+/*
+
 const nav = [
-  { href: "#portfolio", label: "Portfolio" },
-  { href: "#experience", label: "Experience" },
-  { href: "#education", label: "Education" },
-  { href: "#resume", label: "Resume" },
+  { href: "#services", label: "Services" },
+  { href: "#work", label: "Work" },
+  { href: "#about", label: "About" },
   { href: "#contact", label: "Contact" },
+];
+
+*/
+
+const nav = [
+  { href: "#services", label: "Services" },
+  { href: "#portfolio", label: "Portfolio" },
 ];
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -56,7 +64,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <footer className="border-t border-stone-200">
           <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-6 py-6 text-sm text-stone-500">
             <p>Aubrey J. Cook</p>
-            <p>Freelance web developer</p>
+            <p>Website and Web Application Programmer</p>
           </div>
         </footer>
       </body>

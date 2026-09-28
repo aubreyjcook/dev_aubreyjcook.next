@@ -5,7 +5,7 @@ const services = [
       "Landing pages and small-business sites with a clear offer, fast pages, and a structure that is easy to update.",
   },
   {
-    title: "Server-rendered Web Applications",
+    title: "Server-Side-Rendered Websites & Web Applications",
     description:
       "Interfaces for products and internal tools, built with React and Next.js around how people actually use them.",
   },
@@ -60,7 +60,7 @@ export default function Home() {
           Valuable solutions for those seeking web sites and web applications.
         </h1>
         <p className="mt-6 max-w-xl text-lg leading-8 text-stone-600">
-          Aubrey Cook is a professional programmer with experience in Web Programming and Software Engineering. Aubrey&apos;s main areas of experience are in the direct usage of programming languages, especially Javascript. Aubrey favors TypeScript over plain JavaScript. Aubrey also has practical experience in the usage of frameworks and libraries such as React, Next.js, and TailwindCSS. React is the primary front-end framework Aubrey uses for building the foundation of web applications. Outside the JavaScript ecosystem, Aubrey mainly has experience in PHP and WordPress development. Aubrey&apos;s preferred technologies are Typescript, React, Next.js, and Rust. Aubrey Cook is a powerful resource for those seeking services for web development, and programming, especially in the Mchenry County area of Illinois. Primarily cities such as Crystal Lake, Woodstock, and McHenry. Aubrey is also available for remote work.
+          Aubrey Cook is a professional programmer with experience in Web Programming and Software Engineering. Aubrey&apos;s main areas of experience are in the direct usage of programming languages, especially Javascript and Typescript. Aubrey also has practical experience in the usage of frameworks and libraries such as React, Next.js, and TailwindCSS.
         </p>
         <div className="mt-8 flex flex-wrap gap-3">
           <a
@@ -99,7 +99,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="work" className="border-t border-stone-200">
+      <section id="portfolio" className="border-t border-stone-200">
         <div className="mx-auto max-w-6xl px-6 py-16 md:py-20">
           <h2 className="font-mono text-xs uppercase tracking-[0.18em] text-stone-500">
             Portfolio
@@ -132,11 +132,11 @@ export default function Home() {
               About
             </h2>
             <p className="mt-6 max-w-md text-lg leading-8 text-stone-800">
-              Aubrey's experience with using computers begins at a very early age, starting with memories of using an Apple IIe alone in a basement of a school in the late afterhours. Aubrey never forgot the experience of using the terminal environment on these early personal computers. It shaped the knowledge and understanding Aubrey had about technology for years to come.
+              Aubrey&apos;s experience with using computers begins at a very early age, starting with memories of using an Apple IIe alone in a basement of a school in the late afterhours. Aubrey never forgot the experience of using the terminal environment on these early personal computers. It shaped the knowledge and understanding Aubrey had about technology for years to come.
 
 Growing up, Aubrey had access to a Windows 98 based PC, and later learned to install operating systems with Windows XP and early Linux distributions.
 
-A little while after graduating with a GED, Aubrey became interested in programming languages like C++, but didn't start formal learning yet.
+A little while after graduating with a GED, Aubrey became interested in programming languages like C++, but didn&apos;t start formal learning yet.
 
 Aubrey first assembled a computer from separate components in the era of Windows 7, primarily using it for the purposes of gaming.
 
@@ -146,7 +146,7 @@ Over the years, Aubrey began to dabble in Web-Programming Languages, especially 
 
 As Aubrey continued to progress, React.JS became the primary framework for front-end development that Aubrey would leverage. Aubrey developed a mental model of building primarily with components, and thinking in terms of reusable components as Javascript functions after gaining more experience with React.
 
-Towards the later stages of Aubrey's professional skill development, Aubrey began to favor Next.js as an all-encompassing solution for both web sites and web apps and now focuses primarily on this framework to address most web development challenges.
+Towards the later stages of Aubrey&apos;s professional skill development, Aubrey began to favor Next.js as an all-encompassing solution for both web sites and web apps and now focuses primarily on this framework to address most web development challenges.
             </p>
           </div>
           <div id="contact">
@@ -154,8 +154,7 @@ Towards the later stages of Aubrey's professional skill development, Aubrey bega
               Contact
             </h2>
             <p className="mt-6 max-w-md text-lg leading-8 text-stone-800">
-              Tell me what you&apos;re building and when you&apos;d like to
-              start.
+              Make contact to request services for building a web site or web application. Or to update an existing one.
             </p>
             <a
               href="mailto:aubreyjcook.contact@gmail.com"
