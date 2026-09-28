@@ -1,16 +1,16 @@
 const services = [
   {
-    title: "Marketing sites",
+    title: "Static Web Sites",
     description:
       "Landing pages and small-business sites with a clear offer, fast pages, and a structure that is easy to update.",
   },
   {
-    title: "Web applications",
+    title: "Server-rendered Web Applications",
     description:
       "Interfaces for products and internal tools, built with React and Next.js around how people actually use them.",
   },
   {
-    title: "Ongoing work",
+    title: "Updates and Maintenance",
     description:
       "After launch: new pages, performance passes, and the smaller changes that keep a site useful.",
   },
@@ -18,22 +18,34 @@ const services = [
 
 const projects = [
   {
-    name: "Practice site",
-    type: "Marketing site",
+    name: "aubreyjcook.com",
+    type: "personal",
     summary:
-      "A portfolio for an independent studio, with case studies that stay readable on a phone.",
+      "Personal website built using Next.js.",
   },
   {
-    name: "Booking desk",
-    type: "Web app",
+    name: "CSI Conference",
+    type: "Static Web Site",
     summary:
-      "A scheduling tool for a solo service business: availability, requests, and a simple admin view.",
+      "Conference site built using Gatsby",
   },
   {
-    name: "Launch page",
-    type: "Landing page",
+    name: "Center for Inquiry",
+    type: "WordPress Web Site",
     summary:
-      "A single page for a product release, written so the offer is clear in one scroll.",
+      "WordPress site built for a non-profit organization.",
+  },
+  {
+    name: "Skeptical Inquirer",
+    type: "WordPress Web Site",
+    summary:
+      "WordPress site built for a non-profit organization.",
+  },
+  {
+    name: "Free Inquirer",
+    type: "WordPress Web Site",
+    summary:
+      "WordPress site built for a non-profit organization.",
   },
 ];
 
@@ -45,20 +57,17 @@ export default function Home() {
           Available for freelance work
         </p>
         <h1 className="mt-5 max-w-3xl text-4xl font-medium tracking-tight text-balance sm:text-6xl sm:leading-[1.05]">
-          Clear websites for people who have something to say.
+          Valuable solutions for those seeking web sites and web applications.
         </h1>
         <p className="mt-6 max-w-xl text-lg leading-8 text-stone-600">
-          I&apos;m Aubrey, a freelance web developer. I design and build
-          marketing sites and web apps for independent businesses — fast to
-          load, plain to maintain, and written in language your clients
-          understand.
+          Aubrey Cook is a professional programmer with experience in Web Programming and Software Engineering. Aubrey&apos;s main areas of experience are in the direct usage of programming languages, especially Javascript. Aubrey favors TypeScript over plain JavaScript. Aubrey also has practical experience in the usage of frameworks and libraries such as React, Next.js, and TailwindCSS. React is the primary front-end framework Aubrey uses for building the foundation of web applications. Outside the JavaScript ecosystem, Aubrey mainly has experience in PHP and WordPress development. Aubrey&apos;s preferred technologies are Typescript, React, Next.js, and Rust. Aubrey Cook is a powerful resource for those seeking services for web development, and programming, especially in the Mchenry County area of Illinois. Primarily cities such as Crystal Lake, Woodstock, and McHenry. Aubrey is also available for remote work.
         </p>
         <div className="mt-8 flex flex-wrap gap-3">
           <a
             href="#contact"
             className="inline-flex h-11 items-center rounded-full bg-stone-950 px-5 text-sm font-medium text-stone-50 transition-colors hover:bg-stone-800"
           >
-            Start a project
+            Get in touch
           </a>
           <a
             href="#work"
@@ -93,7 +102,7 @@ export default function Home() {
       <section id="work" className="border-t border-stone-200">
         <div className="mx-auto max-w-6xl px-6 py-16 md:py-20">
           <h2 className="font-mono text-xs uppercase tracking-[0.18em] text-stone-500">
-            Typical projects
+            Portfolio
           </h2>
           <ul className="mt-8 divide-y divide-stone-200 border-y border-stone-200">
             {projects.map((project) => (
@@ -123,9 +132,21 @@ export default function Home() {
               About
             </h2>
             <p className="mt-6 max-w-md text-lg leading-8 text-stone-800">
-              I work remotely with freelancers, studios, and small teams who
-              need a site that feels considered and stays easy to change after
-              it ships.
+              Aubrey's experience with using computers begins at a very early age, starting with memories of using an Apple IIe alone in a basement of a school in the late afterhours. Aubrey never forgot the experience of using the terminal environment on these early personal computers. It shaped the knowledge and understanding Aubrey had about technology for years to come.
+
+Growing up, Aubrey had access to a Windows 98 based PC, and later learned to install operating systems with Windows XP and early Linux distributions.
+
+A little while after graduating with a GED, Aubrey became interested in programming languages like C++, but didn't start formal learning yet.
+
+Aubrey first assembled a computer from separate components in the era of Windows 7, primarily using it for the purposes of gaming.
+
+After starting to attend Mchenry County Community College, Aubrey first began to learn programming formally with C++ and came to understand the fundamentals of Object-Oriented Programming
+
+Over the years, Aubrey began to dabble in Web-Programming Languages, especially PHP and Javascript, and began a long process of self-learning starting in Community College.
+
+As Aubrey continued to progress, React.JS became the primary framework for front-end development that Aubrey would leverage. Aubrey developed a mental model of building primarily with components, and thinking in terms of reusable components as Javascript functions after gaining more experience with React.
+
+Towards the later stages of Aubrey's professional skill development, Aubrey began to favor Next.js as an all-encompassing solution for both web sites and web apps and now focuses primarily on this framework to address most web development challenges.
             </p>
           </div>
           <div id="contact">
@@ -137,10 +158,10 @@ export default function Home() {
               start.
             </p>
             <a
-              href="mailto:hello@aubreyjcook.com"
+              href="mailto:aubreyjcook.contact@gmail.com"
               className="mt-6 inline-flex text-sm font-medium text-teal-800 underline decoration-teal-800/30 underline-offset-4 hover:decoration-teal-800"
             >
-              hello@aubreyjcook.com
+              aubreyjcook.contact@gmail.com
             </a>
           </div>
         </div>

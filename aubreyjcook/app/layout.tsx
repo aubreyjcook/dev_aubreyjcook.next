@@ -14,15 +14,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Aubrey J. Cook — Freelance Web Developer",
+  title: "Aubrey J. Cook — Web Developer",
   description:
-    "Freelance web developer building marketing sites and web apps for independent businesses.",
+    "Web programmer developing web sites and web applications. Specializes in using React, Next.js, Typescript, and Tailwind. Experienced in front-end development, effective in full-stack development. Expert in JavaScript. Effective in PHP, MySQL, GraphQL, PostgreSQL, and WordPress. Familiar with Cursor, DeepSeek, and other AI tools. Available for freelance work.",
 };
 
 const nav = [
-  { href: "#services", label: "Services" },
-  { href: "#work", label: "Work" },
-  { href: "#about", label: "About" },
+  { href: "#portfolio", label: "Portfolio" },
+  { href: "#experience", label: "Experience" },
+  { href: "#education", label: "Education" },
+  { href: "#resume", label: "Resume" },
   { href: "#contact", label: "Contact" },
 ];
 
