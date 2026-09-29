@@ -19,33 +19,38 @@ const services = [
 const projects = [
   {
     name: "aubreyjcook.com",
-    type: "personal",
+    type: "Personal Website",
     summary:
       "Personal website built using Next.js.",
+    href: "https://aubreyjcook.com",
   },
   {
     name: "CSI Conference",
     type: "Static Web Site",
     summary:
       "Conference site built using Gatsby",
+    href: "https://csiconference.org",
   },
   {
     name: "Center for Inquiry",
     type: "WordPress Web Site",
     summary:
       "WordPress site built for a non-profit organization.",
+    href: "https://centerforinquiry.org",
   },
   {
     name: "Skeptical Inquirer",
     type: "WordPress Web Site",
     summary:
       "WordPress site built for a non-profit organization.",
+    href: "https://skepticalinquirer.org",
   },
   {
     name: "Free Inquirer",
     type: "WordPress Web Site",
     summary:
       "WordPress site built for a non-profit organization.",
+    href: "https://secularhumanism.org",
   },
 ];
 
@@ -110,15 +115,26 @@ export default function Home() {
                 key={project.name}
                 className="grid gap-2 py-6 sm:grid-cols-[12rem_1fr] sm:gap-8"
               >
-                <div>
-                  <h3 className="font-medium">{project.name}</h3>
-                  <p className="mt-1 font-mono text-xs text-stone-500">
-                    {project.type}
-                  </p>
-                </div>
-                <p className="max-w-xl text-sm leading-6 text-stone-600">
-                  {project.summary}
-                </p>
+                  <div>
+    {project.href ? (
+      <a
+        href={project.href}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="font-medium underline decoration-stone-300 underline-offset-4 transition-colors hover:decoration-stone-950"
+      >
+        {project.name}
+      </a>
+    ) : (
+      <h3 className="font-medium">{project.name}</h3>
+    )}
+    <p className="mt-1 font-mono text-xs text-stone-500">
+      {project.type}
+    </p>
+  </div>
+  <p className="max-w-xl text-sm leading-6 text-stone-600">
+    {project.summary}
+  </p>
               </li>
             ))}
           </ul>
@@ -132,22 +148,13 @@ export default function Home() {
               About
             </h2>
             <p className="mt-6 max-w-md text-lg leading-8 text-stone-800">
-              Aubrey&apos;s experience with using computers begins at a very early age, starting with memories of using an Apple IIe alone in a basement of a school in the late afterhours. Aubrey never forgot the experience of using the terminal environment on these early personal computers. It shaped the knowledge and understanding Aubrey had about technology for years to come.
-
-Growing up, Aubrey had access to a Windows 98 based PC, and later learned to install operating systems with Windows XP and early Linux distributions.
-
-A little while after graduating with a GED, Aubrey became interested in programming languages like C++, but didn&apos;t start formal learning yet.
-
-Aubrey first assembled a computer from separate components in the era of Windows 7, primarily using it for the purposes of gaming.
-
-After starting to attend Mchenry County Community College, Aubrey first began to learn programming formally with C++ and came to understand the fundamentals of Object-Oriented Programming
-
-Over the years, Aubrey began to dabble in Web-Programming Languages, especially PHP and Javascript, and began a long process of self-learning starting in Community College.
-
-As Aubrey continued to progress, React.JS became the primary framework for front-end development that Aubrey would leverage. Aubrey developed a mental model of building primarily with components, and thinking in terms of reusable components as Javascript functions after gaining more experience with React.
-
-Towards the later stages of Aubrey&apos;s professional skill development, Aubrey began to favor Next.js as an all-encompassing solution for both web sites and web apps and now focuses primarily on this framework to address most web development challenges.
+              Programmer with an exceptional drive to deeply understand fundamental systems of technology and how they are integrated in our daily lives. Focus on using comprehensive mental models to understand and solve problems, generating value for others.
             </p>
+            <p className="mt-6 max-w-md text-lg leading-8 text-stone-800">
+              Mainly experienced in JavaScript, with a preference for TypeScript over vanilla JS. Highly experienced in HTML, and CSS. Equipped with a strong mental model of the fundamental building blocks of the web. Experienced in React.JS as a solution for developing most front-end applications. Familiar with Next.JS, utilizing it as a well-rounded solution for any kind of website or modern web application.
+            </p>
+            <p className="mt-6 max-w-md text-lg leading-8 text-stone-800">Other areas of experience are Node.JS, PHP, WordPress, and several other frameworks, libraries, and run-times. Preference for Tailwind.CSS for styling on the web. Possesses an overall familiarity with frameworks as a versatile solution to many problems, without over-reliance.</p>
+            <p className="mt-6 max-w-md text-lg leading-8 text-stone-800">Interested in Rust, and cybersecurity. Preferred operating system is Linux, especially ParrotOS. Familiar with Windows, and Unix.</p>
           </div>
           <div id="contact">
             <h2 className="font-mono text-xs uppercase tracking-[0.18em] text-stone-500">

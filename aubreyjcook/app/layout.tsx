@@ -33,6 +33,8 @@ const nav = [
 const nav = [
   { href: "#services", label: "Services" },
   { href: "#portfolio", label: "Portfolio" },
+  { href: "#about", label: "About" },
+  { href: "#contact", label: "Contact" },
 ];
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
