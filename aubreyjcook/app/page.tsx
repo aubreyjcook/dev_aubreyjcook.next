@@ -75,7 +75,7 @@ export default function Home() {
             Get in touch
           </a>
           <a
-            href="#work"
+            href="#portfolio"
             className="inline-flex h-11 items-center rounded-full border border-stone-300 px-5 text-sm font-medium transition-colors hover:border-stone-950"
           >
             See typical work
