@@ -116,18 +116,19 @@ export default function Home() {
                 className="grid gap-2 py-6 sm:grid-cols-[12rem_1fr] sm:gap-8"
               >
                   <div>
-    {project.href ? (
-      <a
-        href={project.href}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="font-medium underline decoration-stone-300 underline-offset-4 transition-colors hover:decoration-stone-950"
-      >
-        {project.name}
-      </a>
-    ) : (
-      <h3 className="font-medium">{project.name}</h3>
-    )}
+    <h3 className="font-medium">
+  {project.href ? (
+    <a
+      href={project.href}
+      rel="noopener noreferrer"
+      className="underline decoration-stone-300 underline-offset-4 transition-colors hover:decoration-stone-950"
+    >
+      {project.name}
+    </a>
+  ) : (
+    project.name
+  )}
+</h3>
     <p className="mt-1 font-mono text-xs text-stone-500">
       {project.type}
     </p>
