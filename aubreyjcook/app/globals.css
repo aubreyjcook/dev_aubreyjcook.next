@@ -3,12 +3,83 @@
 @theme inline {
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  --color-void: #05080e;
+  --color-panel: #0a1119;
+  --color-line: #183044;
+  --color-ice: #d7eef6;
+  --color-fog: #b7cdd8;
+  --color-mist: #8aa6b8;
+  --color-glow: #5cecff;
 }
 
 html {
   scroll-behavior: smooth;
+  color-scheme: dark;
 }
 
 body {
-  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+  font-family: var(--font-mono), ui-monospace, SFMono-Regular, Menlo, monospace;
+  background-color: var(--color-void);
+  background-image:
+    radial-gradient(ellipse 90% 45% at 50% -12%, rgba(92, 236, 255, 0.09), transparent 58%),
+    linear-gradient(rgba(92, 236, 255, 0.028) 1px, transparent 1px);
+  background-size: auto, 100% 3px;
+  background-attachment: fixed;
+}
+
+::selection {
+  background: #14566a;
+  color: #f4fdff;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #05080e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #183044;
+  border: 2px solid #05080e;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #24566e;
+}
+
+.term-cursor {
+  display: inline-block;
+  width: 0.55ch;
+  height: 0.9em;
+  margin-left: 0.18ch;
+  background: var(--color-glow);
+  vertical-align: -0.05em;
+  box-shadow: 0 0 10px rgba(92, 236, 255, 0.75);
+  animation: term-blink 1.05s steps(1) infinite;
+}
+
+@keyframes term-blink {
+  0%,
+  45% {
+    opacity: 1;
+  }
+
+  50%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .term-cursor {
+    animation: none;
+  }
 }
