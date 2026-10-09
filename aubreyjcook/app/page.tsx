@@ -158,16 +158,16 @@ export default function Home() {
             </h2>
             <div className="mt-6 max-w-md space-y-6 border-l border-glow/30 pl-5 text-base leading-7 text-fog sm:text-lg sm:leading-8">
               <p>
-                Programmer with an exceptional drive to deeply understand fundamental systems of technology and how they are integrated in our daily lives. Focus on using comprehensive mental models to understand and solve problems, generating value for others.
+                I'm a Programmer with an exceptional drive to deeply understand fundamental systems of technology and how they are integrated in our daily lives. I Focus on using comprehensive mental models to understand and solve problems, generating value for others.
               </p>
               <p>
-                Mainly experienced in JavaScript, with a preference for TypeScript over vanilla JS. Highly experienced in HTML, and CSS. Equipped with a strong mental model of the fundamental building blocks of the web. Experienced in React.JS as a solution for developing most front-end applications. Familiar with Next.JS, utilizing it as a well-rounded solution for any kind of website or modern web application.
+                I'm Mainly experienced in JavaScript, with a preference for TypeScript over vanilla JS. Highly experienced in HTML, and CSS. Equipped with a strong mental model of the fundamental building blocks of the web. Experienced in React.JS as a solution for developing most front-end applications. I'm familiar with Next.JS, utilizing it as a well-rounded solution for any kind of website or modern web application.
               </p>
               <p>
-                Other areas of experience are Node.JS, PHP, WordPress, and several other frameworks, libraries, and run-times. Preference for Tailwind.CSS for styling on the web. Possesses an overall familiarity with frameworks as a versatile solution to many problems, without over-reliance.
+                My other areas of experience are Node.JS, PHP, WordPress, and several other frameworks, libraries, and run-times. I prefer Tailwind.CSS for styling on the web. I have an overall familiarity with frameworks as a versatile solution to many problems, without over-reliance.
               </p>
               <p>
-                Interested in Rust, and cybersecurity. Preferred operating system is Linux, especially ParrotOS. Familiar with Windows, and Unix.
+                I'm interested in Rust, and cybersecurity. My preferred operating system is Linux, especially ParrotOS. Familiar with Windows, and Unix.
               </p>
             </div>
           </div>
